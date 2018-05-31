@@ -30,26 +30,6 @@
                     
                     <h3><img src="~/img/btc-logo-small.png" /> Bitcoin (BTC)</h3>
                     <p class="text-muted">XX.XXX,XX USD<br>XX.XXX,XX EUR</p>
-                    
-                        <p class="text-muted"><?php 
-                        $url = "https://apiv2.bitcoinaverage.com/indices/global/ticker/BTCUSD";
-                        $price = json_decode(file_get_contents($url), true);
-                        $last_price = $price['last'];?>
-
-<?php echo "$last_price";
-?></p>
-
-<br>
-
-<?php 
-$url = "https://apiv2.bitcoinaverage.com/indices/global/ticker/BTCEUR";
-$price = json_decode(file_get_contents($url), true);
-$last_price = $price['last'];?>
-
-<?php echo "$last_price";
-?>
-
-<br>
 
                 </div>
             </div>
@@ -58,6 +38,7 @@ $last_price = $price['last'];?>
                    
                     <h3><img src="~/img/ltc-logo-small.png" /> Litecoin (LTC)</h3>
                     <p class="text-muted">XX.XXX,XX USD<br>XX.XXX,XX EUR</p>
+                    
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 text-center">
