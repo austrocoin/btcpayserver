@@ -148,16 +148,16 @@ body {
 
         #mainNav.navbar-shrink {
             border-color: rgba(34, 34, 34, 0.05);
-            background-color: #0F3723;
+            background-color: #6d6d6c;
         }
 
             #mainNav.navbar-shrink .navbar-brand {
                 font-size: 16px;
-                color: #0F3B21;
+                color: #6d6d6c;
             }
 
                 #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-                    color: #0F3B21;
+                    color: #6d6d6c;
                 }
 
             #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
