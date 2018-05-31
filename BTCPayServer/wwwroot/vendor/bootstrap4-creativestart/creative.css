@@ -83,12 +83,12 @@ body {
     #mainNav .navbar-brand {
         font-weight: 700;
         text-transform: uppercase;
-        color: #0F3B21;
+        color: #6d6d6c;
         font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     }
 
         #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-            color: #0F3B21;
+            color: #6d6d6c;
         }
 
     #mainNav .navbar-toggle {
