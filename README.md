@@ -20,6 +20,21 @@ This solution is for you if:
 * You want to become a payment processor yourself and offer a BTCPay hosted solution to merchants
 * You want a way to support currencies other than those offered by Bitpay
 
+## We support altcoins!
+
+In addition to Bitcoin, we support the following crypto currencies:
+
+* BGold
+* Dogecoin
+* Feathercoin
+* Groestlcoin
+* Litecoin
+* Dash
+* Monacoin
+* Polis
+* UFO
+* Viacoin
+
 ## Documentation
 
 Please check out our [complete documentation](https://github.com/btcpayserver/btcpayserver-doc) for more details.
@@ -58,4 +73,4 @@ On linux:
 
 ## Other dependencies
 
-For more information see the documentation [How to deploy a BTCPay server instance](https://github.com/btcpayserver/btcpayserver-doc/blob/master/Deployment.md).
+For more information see the documentation [How to deploy a BTCPay server instance](https://github.com/btcpayserver/btcpayserver-doc/#deployment).

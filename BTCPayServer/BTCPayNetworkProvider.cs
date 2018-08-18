@@ -50,8 +50,12 @@ namespace BTCPayServer
             InitDogecoin();
             InitBitcoinGold();
             InitMonacoin();
+            InitDash();
             InitPolis();
             InitFeathercoin();
+            InitGroestlcoin();
+            InitViacoin();
+            //InitUfo();
         }
 
         /// <summary>
