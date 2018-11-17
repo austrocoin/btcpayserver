@@ -14,7 +14,7 @@ using BTCPayServer.Services.Invoices;
 using BTCPayServer.Services.Rates;
 using BTCPayServer.Services.Stores;
 using BTCPayServer.Services.Wallets;
-using BTCPayServer.Validations;
+using BTCPayServer.Validation;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using NBitcoin;
@@ -83,6 +83,7 @@ namespace BTCPayServer.Controllers
             entity.FullNotifications = invoice.FullNotifications || invoice.ExtendedNotifications;
             entity.ExtendedNotifications = invoice.ExtendedNotifications;
             entity.NotificationURL = notificationUri?.AbsoluteUri;
+            entity.NotificationEmail = invoice.NotificationEmail;
             entity.BuyerInformation = Map<Invoice, BuyerInformation>(invoice);
             entity.PaymentTolerance = storeBlob.PaymentTolerance;
             //Another way of passing buyer info to support
